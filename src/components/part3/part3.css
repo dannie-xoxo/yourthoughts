@@ -1,17 +1,33 @@
+:root {
+    --swiper-theme-color: #000
+    
+}
+
 @font-face {
     font-family: pop;
     src: url('../fonts/Poppins.ttf');
 } 
 
 .box {
-    min-height: 500px;
-    padding: 60px 20px; 
+    min-height: 550px;
+    padding: 50px 20px; 
+    width: 100%;
+    
 }
-.row {
-    display: grid;
-    grid-gap: 20px 0;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.slide-container {
+    min-width: 1120px;
 }
+
+.slide-content {
+    overflow: hidden;
+}
+ .row {
+    display: flex;
+    gap: 20px 0;
+    flex-direction: column;
+   
+    
+} 
 .books {
     background: rgba(194, 194,194);
     display: flex;
@@ -19,6 +35,9 @@
     text-align: left;
     padding: 20px 30px;
     margin-left: 20px;
+    box-shadow: 2px 3px var(--shadow);
+
+    
 }
 .header1 {
     text-transform: uppercase;
@@ -57,3 +76,10 @@
 .cover {
     height: 300px;
 }
+/* .swiper-button-next {
+    right: 0;
+    height: 10px;
+}
+.swiper-button-prev {
+    left: 0
+} */

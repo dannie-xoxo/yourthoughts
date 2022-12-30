@@ -1,6 +1,7 @@
 :root {
     --light: #fff;
     --dark: rgb(15, 15, 15);
+    --shadow: rgba(15, 15, 15, .4);
 }
 @font-face {
     src: url("../fonts/Romantic\ Couple.ttf");
