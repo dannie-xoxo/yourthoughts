@@ -1,0 +1,11 @@
+.vessel {
+   min-height: 500px;
+   text-align: center;
+   padding: 50px 20px;
+}
+.vision {
+    font-size: 5.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+}
